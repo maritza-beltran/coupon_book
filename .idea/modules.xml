@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/christmas_coupons.iml" filepath="$PROJECT_DIR$/christmas_coupons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DubPythonSDK/DubPythonSDK.iml" filepath="$PROJECT_DIR$/DubPythonSDK/DubPythonSDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coupon_book.iml" filepath="$PROJECT_DIR$/coupon_book.iml" />
     </modules>
   </component>
 </project>
