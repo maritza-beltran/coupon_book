@@ -1,11 +1,14 @@
-import java.time.LocalDate;
 import java.util.Date;
 
 public class Coupon {
-    private String dateAccessed;
+    private Date dateAccessed;
+    private Date dateRequested;
     private String couponType;
     private Integer quantity;
     private Boolean used;
+    private Integer daysUntilUse; //the purpose of this parameter is to ensure that the difference between the date
+    //accessed and data requested meet the minimum days notice if the owner has specified one for that coupon
+
 
     static void useCoupon(String couponType){
         //when used, decrease the quantity of that coupon type
